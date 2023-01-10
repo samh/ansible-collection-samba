@@ -100,6 +100,7 @@ See [Ansible Using collections](https://docs.ansible.com/ansible/latest/user_gui
 | `samba_realm`                  | -                        | Realm domain name                                                                                                            |
 | `samba_printer_type`           | cups                     | value for the global option `printing` and `printcap name`                                                                   |
 | `samba_security`               | `user`                   | Samba security setting                                                                                                       |
+| `samba_selinux_booleans`       | `[...see file...]`       | List of SELinux booleans to set if SELinux is enabled; defaults to allowing sharing of any file on the system                |
 | `samba_server_max_protocol`    | -                        | Specify a maximum protocol version offered by the server.                                                                    |
 | `samba_server_min_protocol`    | -                        | Specify a minimum protocol version offered by the server.                                                                    |
 | `samba_server_string`          | `fileserver %m`          | Comment string for the server.                                                                                               |
